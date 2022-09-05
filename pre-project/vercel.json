@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://pre13.duckdns.org:81/api/:path*"
+    },
+    {
+      "source": "/api/:path*/",
+      "destination": "http://pre13.duckdns.org:81/api/:path*/"
+    }
+  ]
+}
